@@ -1,10 +1,19 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/game-configuration.css">
+    <title>Configuración del juego</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Configuración del Juego</h1>
+        <p id="score">Puntuación: 0</p>
+        <button onclick="increaseScore(10)">Aumentar 10 Puntos</button>
+        <button onclick="resetScore()">Reiniciar Puntuación</button>
+    </div>
 
-
-body{
-    background-color: green;
-}
+    <script src="../scripts/score-system.js"></script>
+</body>
+</html>
