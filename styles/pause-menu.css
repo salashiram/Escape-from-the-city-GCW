@@ -1,9 +1,45 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Courier New', monospace;
 }
 
-body{
-    background-color: red;
+body {
+    background-color: #b22222; /* Rojo más oscuro */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../assets/pause-bg.jpg'); /* Fondo con textura */
+    background-size: cover;
 }
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+}
+
+.menu-container {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+button {
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Agregar foto game-bg.jpg y pause-bg.jpg en la carpeta assets */
