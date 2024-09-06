@@ -1,19 +1,48 @@
-!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles/game-configuration.css">
-    <title>Configuración del juego</title>
-</head>
-<body>
-    <div class="container">
-        <h1>Configuración del Juego</h1>
-        <p id="score">Puntuación: 0</p>
-        <button onclick="increaseScore(10)">Aumentar 10 Puntos</button>
-        <button onclick="resetScore()">Reiniciar Puntuación</button>
-    </div>
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
 
-    <script src="../scripts/score-system.js"></script>
-</body>
-</html>
+body {
+    background-color: #2e8b57; /* Color verde más suave */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../assets/game-bg.jpg'); /* Fondo con textura */
+    background-size: cover;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+button {
+    background-color: #ff9800;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #e68900;
+}
