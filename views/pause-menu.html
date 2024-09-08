@@ -9,6 +9,25 @@
 <body>
 
 
+    <div class="container">
+        <div class="content">
+            <ul>
+                <li><a href="">Reanudar</a></li>
+                <li><a href="../views/game-configuration.html">Configuración</a></li>
+                <li><a href="../views/puntuaciones.html">Puntuaciones</a></li>
+                <li><a id="btnExit" href="#">Salir</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        let btnExit = document.getElementById("btnExit");
+        btnExit.addEventListener('click',()=>{
+            alert("¿Deseas abandonar la partida?");
+        })
+    </script>
+
+
 
     
 </body>
