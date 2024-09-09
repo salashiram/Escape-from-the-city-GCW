@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú de Inicio</title>
+    <link rel="stylesheet" href="../styles/game-menu.css">
+</head>
+<body>
+    <div id="menuContainer">
+        <h1>Menú Principal</h1>
+        <div id="menuButtons">
+            <button id="startGame">Iniciar</button>
+            <a id="ajustes" href="game-configuration.html" style="display: none;"></a>
+            <button id="settingsGame">Ajustes</button>
+            <button id="exitGame">Salir</button>
+        </div>
+    </div>
+
+    <script>
+        let btnExit = document.getElementById("exitGame");
+        btnExit.addEventListener('click',()=>{
+            alert("¿Deseas abandonar la partida?");
+        })
+        let btnConfig = document.getElementById("settingsGame");
+        btnConfig.addEventListener('click',()=>{
+            document.getElementById('ajustes').click();
+        })
+    </script>
+</body>
+</html>
