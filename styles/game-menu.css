@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', monospace;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(../assets/DALL·E\ 2024-09-08\ 17.26.57\ -\ A\ desolate\ and\ abandoned\ city\ in\ disarray\,\ set\ under\ a\ cloudy\,\ overcast\ sky.\ Buildings\ are\ damaged\,\ debris\ litters\ the\ streets\,\ and\ cars\ are\ overturne.jpg);
+    background-size: cover;
+    color: white;
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+#menuContainer {
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 90vh;
+    background-color: #285cc531;
+}
+
+button {
+    display: block;
+    width: 25%;
+    margin: 30px auto;
+    padding: 25px 30px;
+    font-size: 25px;
+    color: white;
+    background-color: #081a5b86;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #1278b8;
+}

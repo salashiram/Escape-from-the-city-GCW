@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', monospace;
+}
+
+body {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(../assets/DALL·E\ 2024-09-08\ 17.26.57\ -\ A\ desolate\ and\ abandoned\ city\ in\ disarray\,\ set\ under\ a\ cloudy\,\ overcast\ sky.\ Buildings\ are\ damaged\,\ debris\ litters\ the\ streets\,\ and\ cars\ are\ overturne.jpg);
+    background-size: cover;
+}
+
+#gameContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 90vh;
+    background-color: #000;
+    border: 2px solid #fff;
+}
